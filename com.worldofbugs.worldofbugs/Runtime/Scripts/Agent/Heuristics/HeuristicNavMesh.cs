@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.AI.Navigation;
 
 using Unity.MLAgents;
 using Unity.MLAgents.Sensors;

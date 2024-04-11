@@ -40,11 +40,11 @@ namespace WorldOfBugs {
             cameras = CameraExtensions.GetBugMaskCamera();
             fillScreens[1] = cameras[0].gameObject.AddComponent<FillScreen>();
             fillScreens[1].color = (Color) bugType;
-            StartCoroutine(FlickerToggerCoroutine);
+            //StartCoroutine(FlickerToggerCoroutine);
         }
 
         public override void OnDisable() {
-            StopCoroutine(FlickerToggerCoroutine);
+            //StopCoroutine(FlickerToggerCoroutine);
             StopCoroutine(FillScreenTogglerCoroutine);
 
             foreach(FillScreen fs in fillScreens) {
